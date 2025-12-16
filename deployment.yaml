@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: simple-echo
-        image: <Your image registry here>
+        image: geniusyoung/hostname:latest
         ports:
         - containerPort: 80
